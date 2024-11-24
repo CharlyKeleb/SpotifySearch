@@ -59,7 +59,6 @@ class _HomeState extends State<Home> {
                               ),
                             ),
                             onChanged: (val) {
-                              print("VALUE $val");
                               viewModel.setQuery(val);
                               viewModel.search();
                             },
