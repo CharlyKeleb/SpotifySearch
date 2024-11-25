@@ -125,7 +125,7 @@ class _HomeState extends State<Home> {
                           crossAxisCount: 2,
                           crossAxisSpacing: 10.0,
                           mainAxisSpacing: 10.0,
-                          childAspectRatio: 0.7,
+                          childAspectRatio: 0.6,
                         ),
                         itemCount: viewModel.albums.albums?.items?.length ?? 0,
                         itemBuilder: (context, index) {
